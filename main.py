@@ -12,6 +12,5 @@ def write_csv(pro):
 if __name__ == '__main__':
     disease = disease()
     count = int(input())
-    count = 2
     profile = gen_profile(count, disease)
     write_csv(profile)
